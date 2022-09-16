@@ -166,7 +166,8 @@ h6 {
   letter-spacing: 0.06em;
   line-height: 1.875;
   border-radius: 4px;
-  text-align: inherit;
+  border-color: var(--brand-color);
+  text-align: center;
   min-width: 200px;
   padding: 8px 32px;
 }
