@@ -72,6 +72,7 @@ h6 {
 
 .section {
   padding-bottom: 94px;
+  padding-top: 94px;
   background-color: var(--bgn-color);
 }
 
