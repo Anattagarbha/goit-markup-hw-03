@@ -83,6 +83,20 @@ h6 {
   border-bottom: 1px solid var(--hdr-border-color);
 }
 
+.wst-header > .container {
+  display: flex;
+  align-items: center;
+}
+
+.wst-header .list {
+  display: flex;
+  gap: 50px;
+}
+
+.wst-header .logo {
+  margin-right: 93px;
+}
+
 /* логотип */
 
 .logo {
@@ -120,6 +134,11 @@ h6 {
   color: var(--brand-color);
 }
 
+.nav-menu {
+  display: flex;
+  align-items: center;
+}
+
 /* меню контактов */
 
 .contact-item > .contact-link {
@@ -132,6 +151,10 @@ h6 {
 .contact-link:hover,
 .contact-link:focus {
   color: var(--brand-color);
+}
+
+.contacts {
+  margin-left: auto;
 }
 
 /* стиль секции hero */
