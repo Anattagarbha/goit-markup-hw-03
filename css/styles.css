@@ -206,11 +206,25 @@ h6 {
 .features-title {
   line-height: 1.14;
   text-transform: uppercase;
+  margin-bottom: 10px;
 }
 
 .features-item > .features-text {
   color: var(--small-text);
   line-height: 1.7;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.features-item {
+  max-width: 270px;
+  min-height: 100px;
+  flex-basis: 270px;
 }
 
 /* стиль секции skills */
