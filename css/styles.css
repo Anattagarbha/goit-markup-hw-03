@@ -258,23 +258,34 @@ img {
   box-shadow: 0px 1px 3px var(--member-shadow-1),
     0px 1px 1px var(--member-shadow-2), 0px 2px 1px var(--member-shadow-3);
   background-color: var(--mr-white);
+  max-width: 270px;
 }
 
 .team-headline {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .team-member > .member-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.188;
+  margin-bottom: 10px;
 }
 
 .team-member > .member-function {
   color: var(--small-text);
   font-size: 16px;
   line-height: 1.188;
+  padding: 30px 0;
+}
+
+.team-list {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
 }
 
 /* footer */
