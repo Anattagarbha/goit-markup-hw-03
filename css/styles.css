@@ -374,13 +374,18 @@ img {
   width: calc((100% - 60px) / 3);
 }
 
-.project-item > .project-name {
+.project-info {
+  padding: 20px 24px;
+}
+
+.project-info > .project-name {
   font-size: 18px;
   letter-spacing: 0.06em;
   line-height: 2;
+  margin-bottom: 4px;
 }
 
-.project-item > .project-function {
+.project-info > .project-function {
   font-size: 16px;
   color: var(--small-text);
   line-height: 1.875;
