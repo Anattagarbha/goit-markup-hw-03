@@ -238,6 +238,14 @@ img {
 .skills-headline {
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
 }
 
 /* стиль секции team */
