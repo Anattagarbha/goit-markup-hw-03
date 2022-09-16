@@ -111,6 +111,7 @@ img {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
+  display: inline-block;
 }
 
 .logo-color {
@@ -292,6 +293,11 @@ img {
 
 .wst-footer {
   background-color: var(--third-bgn-color);
+  padding: 60px 0;
+}
+
+.wst-footer .logo {
+  margin-bottom: 20px;
 }
 
 /* adress menu */
@@ -313,6 +319,10 @@ img {
 
 .address-item [href="tel:+380961111111"] {
   color: var(--address-color);
+}
+
+.address-item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 /* страница portfolio */
