@@ -96,14 +96,10 @@ body {
   color: var(--brand-color);
 }
 
-/* стиль секции hero 
-(высота меньше, чем в макете, для удобства просмотра) */
+/* стиль секции hero */
 
 .hero {
-  display: block;
   background-color: var(--third-bgn-color);
-  width: 1600px;
-  height: 300px;
 }
 
 .hero-headline {
@@ -117,8 +113,6 @@ body {
 
 .button {
   background-color: var(--brand-color);
-  border: none;
-  border-radius: 4px;
   box-shadow: 0px 4px 4px var(--hero-btn-shadow);
   color: var(--mr-white);
   font-family: var(--font-primary);
@@ -126,8 +120,6 @@ body {
   font-weight: 700;
   letter-spacing: 0.06em;
   line-height: 1.875;
-  padding: 10px 32px;
-  text-align: center;
 }
 
 /* стиль секции features */
@@ -157,18 +149,13 @@ body {
 /* стиль секции team */
 
 .team {
-  display: block;
   background-color: var(--second-bgn-color);
-  width: 1600px;
 }
 
 .team-member {
-  box-sizing: border-box;
   box-shadow: 0px 1px 3px var(--member-shadow-1),
     0px 1px 1px var(--member-shadow-2), 0px 2px 1px var(--member-shadow-3);
   background-color: var(--mr-white);
-  width: 270px;
-  height: 368px;
 }
 
 .team-headline {
@@ -191,10 +178,7 @@ body {
 /* footer */
 
 .wst-footer {
-  display: block;
   background-color: var(--third-bgn-color);
-  width: 1600px;
-  height: 252px;
 }
 
 /* adress menu */
@@ -228,14 +212,10 @@ body {
 /* фильтр проектов */
 
 .portfolio-button {
-  border-radius: 4px;
-  height: 38px;
-  border: none;
   font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.625;
-  text-align: center;
 }
 
 .portfolio-button:hover,
@@ -249,10 +229,7 @@ body {
 /* список проектов */
 
 .project-item {
-  box-sizing: border-box;
   border: 1px solid var(--border-color);
-  width: 370px;
-  height: 404px;
 }
 
 .project-item > .project-name {
