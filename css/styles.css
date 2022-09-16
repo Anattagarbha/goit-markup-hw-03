@@ -370,11 +370,13 @@ img {
 /* список проектов */
 
 .project-item {
-  border: 1px solid var(--border-color);
   width: calc((100% - 60px) / 3);
 }
 
 .project-info {
+  border: 1px solid var(--border-color);
+  border-top-width: 0;
+  border-top-style: hidden;
   padding: 20px 24px;
 }
 
