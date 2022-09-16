@@ -359,6 +359,7 @@ img {
 .portfolio-button:focus,
 .portfolio-button:active {
   background-color: var(--brand-color);
+  border-color: var(--brand-color);
   color: var(--mr-white);
   box-shadow: 0px 3px 1px var(--port-btn-shadow-1),
     0px 1px 2px var(--port-btn-shadow-2), 0px 2px 2px var(--port-btn-shadow-3);
