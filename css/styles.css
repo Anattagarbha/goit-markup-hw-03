@@ -219,7 +219,7 @@ img {
   border-color: var(--brand-color);
   text-align: center;
   min-width: 200px;
-  padding: 10px 32px;
+  padding: 8px 32px;
 }
 
 .button:active {
