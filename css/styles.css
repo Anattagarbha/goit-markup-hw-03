@@ -205,6 +205,10 @@ img {
 
 /* стиль секции features */
 
+.features.section {
+  padding-bottom: 0;
+}
+
 .features-headline {
   font-size: 36px;
   line-height: 1.17;
