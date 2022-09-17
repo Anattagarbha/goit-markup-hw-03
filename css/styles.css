@@ -34,6 +34,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.nav-link,
+.contact-link,
+.address-link,
+.logo {
+  display: inline-block;
+}
+
 .no-style {
   list-style: none;
 }
@@ -111,7 +118,6 @@ img {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.19;
-  display: inline-block;
 }
 
 .logo-color {
