@@ -34,13 +34,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.nav-link,
-.contact-link,
-.address-link,
-.logo {
-  display: inline-block;
-}
-
 .no-style {
   list-style: none;
 }
@@ -140,6 +133,10 @@ img {
 
 .logo-white {
   color: var(--mr-white);
+}
+
+.wst-footer .logo {
+  display: inline-block;
 }
 
 /* меню навигации */
