@@ -110,7 +110,6 @@ img {
 .wst-header .list {
   display: flex;
   gap: 50px;
-  align-items: center;
 }
 
 .wst-header .logo {
@@ -178,6 +177,8 @@ img {
 }
 
 .contacts {
+  display: flex;
+  align-items: center;
   margin-left: auto;
 }
 
