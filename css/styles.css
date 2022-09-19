@@ -111,12 +111,12 @@ img {
 
 .wst-header > .container {
   display: flex;
-  align-items: center;
 }
 
 .wst-header .list {
   display: flex;
   gap: 50px;
+  align-items: center;
 }
 
 .wst-header .logo {
@@ -162,7 +162,6 @@ img {
 
 .nav-menu {
   display: flex;
-  align-items: center;
 }
 
 /* меню контактов */
