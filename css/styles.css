@@ -107,6 +107,7 @@ img {
 .wst-header {
   padding: 24px 0;
   border-bottom: 1px solid var(--hdr-border-color);
+  min-height: 80px;
 }
 
 .wst-header > .container {
